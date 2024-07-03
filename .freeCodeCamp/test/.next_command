@@ -40,3 +40,11 @@ psql
 psql --username=freecodecamp --dbname=postgres
 pg_dump -c --inserts -U freecodecamp universe > universe.sql
 echo "# celestialBodiesFCC" >> README.md
+git remote remove origin
+git remote remove origin
+git remote add origin https://github.com/ruggeeee/celestialBodiesFCC
+git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/ruggeeee/celestialBodiesFCC.git
+git push -u origin main
+git add .
