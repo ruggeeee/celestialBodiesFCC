@@ -38,3 +38,5 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=postgres
 psql
 psql --username=freecodecamp --dbname=postgres
+pg_dump -c --inserts -U freecodecamp universe > universe.sql
+echo "# celestialBodiesFCC" >> README.md
